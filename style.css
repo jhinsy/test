@@ -1,0 +1,219 @@
+body , *
+{
+    padding: 0%;
+    margin: 0%;
+}
+.home{
+    background-image: url(/img/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh ;
+}
+.divhome{
+    padding: 500px 0px 20px 60px;
+}
+.phome{
+    color: white;
+    padding-bottom: 40px;
+    font-size: 150%;
+}
+h1{
+    font-size: 300%;
+    color: white;
+    padding-bottom: 40px;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 5px; 
+    padding-right: 15px;
+    border-color: aliceblue;
+
+}
+.story-sec
+{
+padding: 50px   ;
+margin: auto;
+width: 80%;
+}
+.story-content
+{
+    width: 50%;
+    float: left;
+
+}
+.story-img
+{
+    width: 50%;
+    float: left;
+}
+.story-img img{
+    width: 100%;
+}
+.story-content P{
+    color: gray;
+    line-height: 30px;
+}
+.story-content H2 {
+    margin: 10px 0px;
+    
+}
+.section-chefs{
+    clear: left;
+    text-align: center;
+    
+    background-color: rgb(195, 196, 197);
+}
+.div-sec3
+{
+
+    width: 80%;
+    margin: auto;
+    
+}
+.div-chef1
+{ 
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(195, 196, 197);
+}   
+.img-chef1{
+    width: 90%;
+    
+}
+.gray{
+    color: gray; 
+    line-height: 20px;
+}
+.ifram-1
+{
+    margin: auto;
+    width: 30%;
+    padding: 120px;
+    float: left;
+    height: 500px;
+}
+.con-inf4
+{
+    margin: auto;
+    padding: 120px;
+    
+}
+.con-inf4 p 
+{
+    color: gray;
+    line-height: 40px;
+    
+}
+.cle-4
+{
+    clear: left;
+}
+.footer
+{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer p
+{
+    color: gray;
+    line-height:30px ;
+}
+.find-us
+{
+    width: 33.3333%;
+    float: left;
+
+}
+.reserv
+{
+    width: 33.3333%;
+    float: left;
+
+}
+.hours
+{
+    width: 25%;
+    float: left;
+    background-image: url(/img/6.jpg);
+    border-radius: 10px;
+}
+.overlay
+{
+    background-color: rgba(0,0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+.overlay h3
+{
+color: white;
+margin: 10px
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    float: left;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    width:20% ;
+}
+li a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:20% ;
+    
+}
+
+  /* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+    display: inline-block;
+}
+li a :hover{
+background-color: rgb(80, 79, 78);
+}
+@media screen and (max-width:600px;)
+{
+    .divhome{
+        padding: 500px 0px 20px 0px;
+    }
+    .phome{
+        color: white;
+        
+        font-size: 50%;
+    
+}
+h1{
+    font-size:50% ;
+    color: white;
+    display: inline-block;
+    
+}
+button{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+
+    border-color: aliceblue;
+
+}
+
+}
